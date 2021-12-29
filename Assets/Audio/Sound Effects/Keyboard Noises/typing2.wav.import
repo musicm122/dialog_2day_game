@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/typing2.wav-818164aaf100b5bee151d5b62b203e64.sample"
+
+[deps]
+
+source_file="res://Assets/Audio/Sound Effects/Keyboard Noises/typing2.wav"
+dest_files=[ "res://.import/typing2.wav-818164aaf100b5bee151d5b62b203e64.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

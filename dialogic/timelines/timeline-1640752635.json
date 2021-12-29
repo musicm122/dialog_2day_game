@@ -1,0 +1,106 @@
+{
+	"events": [
+		{
+			"action": "join",
+			"character": "character-1640752448.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1640752448.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Damn good mutton!~"
+		},
+		{
+			"action": "join",
+			"character": "character-1640752753.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1640752753.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "The lies you speak!"
+		},
+		{
+			"action": "join",
+			"character": "character-1640753154.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			}
+		},
+		{
+			"character": "character-1640752448.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "What? We will never settle this. Hey player person! What do you think of the mutton?"
+		},
+		{
+			"choice": "Its shit",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1640753154.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "It tastes like my ass was bathed in a fine shit and vinegarette reduction with a hint of corn. "
+		},
+		{
+			"choice": "Its godly",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1640753154.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "My life is now complete. I have licked the face of God."
+		},
+		{
+			"custom_slot": "",
+			"event_id": "dialogic_026",
+			"use_default_slot": true
+		},
+		{
+			"event_id": "dialogic_013"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1640752635.json",
+		"name": "HelloWorld"
+	}
+}
