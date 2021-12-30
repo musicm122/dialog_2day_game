@@ -1,20 +1,12 @@
 ﻿using Godot;
-using System;
 
 namespace Dialog2DayGame
 {
-    public class InputAction
-    {
-        public const String Shoot = "shoot";
-        public const String Left = "left";
-        public const String Right = "right";
-        public const String Up = "up";
-        public const String Down = "down";
-        public const String Pause = "pause";
-    }
 
     public static class GDUtils
     {
+        public static bool IsInteracting() => Input.IsActionJustPressed(InputAction.Interact);
+
         public static Vector2 GetTopDownMovementInput(float speed = 1f)
         {
             var velocity = Vector2.Zero;
