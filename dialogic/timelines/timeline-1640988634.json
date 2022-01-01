@@ -1,0 +1,68 @@
+{
+	"events": [
+		{
+			"emit_signal": "start_dialog",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1640988716.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Please get me out of here! The key isn't in this room. You are going to have to explore to get it."
+		},
+		{
+			"character": "character-1640989017.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "You come across a prisoner "
+		},
+		{
+			"choice": "[color=#A5EFAC]Where are we?[/color]",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1640988716.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I don't know! Get me out of here!"
+		},
+		{
+			"choice": "[color=#A5EFAC]Who locked you up?[/color]",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1640988716.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I don't know! Get me out of here!"
+		},
+		{
+			"choice": "[color=#A5EFAC]Is there a kKey?[/color]",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"emit_signal": "end_dialog",
+			"event_id": "dialogic_040"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1640988634.json",
+		"name": "Prisoner"
+	}
+}

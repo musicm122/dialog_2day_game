@@ -4,6 +4,7 @@ using GC = Godot.Collections;
 
 namespace Dialog2DayGame
 {
+
     public static class DialogicSharp
     {
         private static Script _dialogic = GD.Load<Script>("res://addons/dialogic/Other/DialogicClass.gd");
@@ -51,12 +52,14 @@ namespace Dialog2DayGame
 
         public static Node Start(String timeline, bool resetSaves = true, bool debugMode = false, bool useCanvasInstead = true)
         {
-            return Start<Node>(timeline, DEFAULT_DIALOG_RESOURCE, resetSaves, debugMode, useCanvasInstead);
+            var result = Start<Node>(timeline, DEFAULT_DIALOG_RESOURCE, resetSaves, debugMode, useCanvasInstead);
+            return result;
         }
 
         public static T Start<T>(String timeline, String dialogScenePath, bool resetSaves = true, bool debugMode = false, bool useCanvasInstead = false) where T : class
         {
-            return (T)_dialogic.Call("start", timeline, resetSaves, dialogScenePath, debugMode, useCanvasInstead);
+            var result = (T)_dialogic.Call("start", timeline, resetSaves, dialogScenePath, debugMode, useCanvasInstead);
+            return result;
         }
 
         public static Node StartFromSave(String timeline, bool debugMode = false)
