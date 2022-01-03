@@ -13,8 +13,8 @@
 	"portraits": [
 		{
 			"name": "Default",
-			"path": ""
+			"path": "res://Assets/Art/Prisoner.png"
 		}
 	],
-	"scale": 100
+	"scale": 40
 }

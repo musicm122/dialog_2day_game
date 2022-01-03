@@ -10,5 +10,7 @@ namespace Dialog2DayGame
         public const String Up = "up";
         public const String Down = "down";
         public const String Pause = "pause";
+        public const String Run = "Run";
+        public const String ToggleFlashlight = "ToggleFlashlight";
     }
 }

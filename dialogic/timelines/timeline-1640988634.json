@@ -5,6 +5,20 @@
 			"event_id": "dialogic_040"
 		},
 		{
+			"action": "join",
+			"character": "character-1640988716.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
 			"character": "character-1640988716.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
@@ -20,7 +34,7 @@
 			"question": "You come across a prisoner "
 		},
 		{
-			"choice": "[color=#A5EFAC]Where are we?[/color]",
+			"choice": "Where are we?",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
@@ -33,7 +47,7 @@
 			"text": "I don't know! Get me out of here!"
 		},
 		{
-			"choice": "[color=#A5EFAC]Who locked you up?[/color]",
+			"choice": "Who locked you up?",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
@@ -46,7 +60,20 @@
 			"text": "I don't know! Get me out of here!"
 		},
 		{
-			"choice": "[color=#A5EFAC]Is there a kKey?[/color]",
+			"choice": "Is there a key?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Please get me out of here! The key isn't in this room. You are going to have to explore to get it."
+		},
+		{
+			"choice": "Good bye.",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
@@ -54,6 +81,11 @@
 		},
 		{
 			"event_id": "dialogic_013"
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]",
+			"event_id": "dialogic_003"
 		},
 		{
 			"emit_signal": "end_dialog",
